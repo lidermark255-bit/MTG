@@ -11,7 +11,7 @@ set -Eeuo pipefail
 #   MTG_PUBLIC_HOST=proxy.example.com
 #
 # Example:
-#   MTG_PORT=443 MTG_DOMAIN=cdn.example.com bash install-mtg-oneliner.sh
+#   MTG_PORT=3128 MTG_DOMAIN=cdn.example.com bash install-mtg-oneliner.sh
 
 MTG_VERSION="${MTG_VERSION:-2.2.8}"
 MTG_PORT="${MTG_PORT:-3128}"
